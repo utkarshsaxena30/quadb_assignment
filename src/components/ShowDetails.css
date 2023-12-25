@@ -1,0 +1,69 @@
+body{
+  background-color: black;
+}
+.show-details-container {
+    font-family: 'Arial, sans-serif';
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+    
+  }
+  
+  .show-details-title {
+    text-align: center;
+    color: #e50914;
+  }
+  
+  .show-name {
+    color: white;
+  }
+  
+  .show-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .show-image {
+    width: 100px;
+    margin-right: 15px;
+  }
+  
+  .show-summary {
+    line-height: 1.6;
+    text-align: justify;
+    color: white;
+  }
+  
+  .show-detail {
+    margin-bottom: 10px;
+    color: white;
+  }
+  
+  .book-show-button {
+    background-color: #e50914;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 15px;
+  }
+  
+  .back-to-list-link {
+    display: block;
+    text-decoration: none;
+    color: #007BFF;
+  }
+  
+  .separator {
+    margin: 20px 0;
+    border: 1px solid #ddd;
+    background-color: #ddd;
+    height: 1px;
+    width: 100%;
+  }
+  
+  .loading-message {
+    text-align: center;
+  }
+  

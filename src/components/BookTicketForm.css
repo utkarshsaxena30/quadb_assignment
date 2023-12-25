@@ -1,0 +1,23 @@
+.book-ticket-form-container {
+    font-family: 'Arial, sans-serif';
+    padding: 20px;
+  }
+  
+  .form-title {
+    margin-bottom: 15px;
+    color: white;
+  }
+  
+  .form-field {
+    margin-bottom: 15px;
+    color: white;
+  }
+  
+  .submit-button {
+    background-color: #e50914;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
