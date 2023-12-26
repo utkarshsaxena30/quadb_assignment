@@ -2,6 +2,8 @@ import React, { useState, useEffect } from 'react'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import ShowList from './components/ShowList'
 import ShowDetails from './components/ShowDetails'
+import BookTicketForm from './components/BookTicketForm'
+import { Toaster } from 'react-hot-toast'
 
 const App = () => {
   const [shows, setShows] = useState([])
@@ -23,8 +25,13 @@ const App = () => {
           <Route path={`/show/:id`} exact>
             <ShowDetails />
           </Route>
+          <Route path={'/book/:id'} exact>
+            <BookTicketForm />
+          </Route>
         </Switch>
       </div>
+
+      <Toaster />
     </Router>
   )
 }
